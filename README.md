@@ -1,10 +1,10 @@
-# spertaro
+# kaggle-research-skills
 
 Skills for [Claude Code](https://claude.com/claude-code) that turn open-ended research into a disciplined practice:
 how to look past the frontier of what is known, how to absorb what others already know without mistaking that for
 research, and how not to fool yourself along the way.
 
-*Spertaro* is Esperanto for "a body of experience". The skills were distilled from several machine-learning
+The skills were distilled from several machine-learning
 competition campaigns: every rule in them was paid for by a prediction that failed or a check that would have
 caught it. The campaign details are removed; the method and its lessons remain.
 
@@ -40,10 +40,10 @@ caught it. The campaign details are removed; the method and its lessons remain.
 Skills are plain directories. Clone the repository and link the ones you want into your skills folder:
 
 ```bash
-git clone https://github.com/ssubbotin/spertaro.git
+git clone https://github.com/ssubbotin/kaggle-research-skills.git
 mkdir -p ~/.claude/skills
 for s in researcher llm-council kaggle-campaign kaggle-code-submission; do
-  ln -s "$PWD/spertaro/skills/$s" ~/.claude/skills/$s
+  ln -s "$PWD/kaggle-research-skills/skills/$s" ~/.claude/skills/$s
 done
 ```
 
